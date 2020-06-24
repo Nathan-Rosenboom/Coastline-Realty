@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    min-height: 100%;
+}
+body {
+    background-color: #7394bf;
+    width: inherit;
+    min-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+.navigation {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+.logo{
+    max-width: 30%;
+    object-position: center;
+
+}
+
+.links {
+    margin-top: 30px;
+}
+.row-1{
+    align-content: center;
+    width: 100%;
+}
+.main{
+    padding-right: 0px;
+
+}
+
+.jumbotron {
+    background-image: url("./public/assets/img/1.jpg");
+    background-size: cover;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+.card{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.card-img {
+    width: 240px;
+    height: 240px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.container{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.list-group-item.active {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.carousel-container {
+    background-color: #fff;
+    display: unset;
+}
+
+.card-img-carousel {
+    height: 240px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 5px;
+}
