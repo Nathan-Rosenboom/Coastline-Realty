@@ -13,7 +13,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
+a:hover{
+  color: grey;
+}
 a {
   color: #000;
 }
@@ -126,4 +128,9 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
+}
+
+.icon-link:hover {
+  color: grey, transparent(50%);
+  
 }
