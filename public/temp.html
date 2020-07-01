@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coastline Realty</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <link rel="stylesheet" href="/style.css" />
 
+  
 </head>
 
 <body>
@@ -23,30 +25,31 @@
           <h5>Home</h5>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#!">
-          <h5>Sell</h5>
-        </a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h5>Property Sale</h5></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#!">Sell Property</a>
+          <a class="dropdown-item" href="#!">Purchase Property</a>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">
-          <h5>Buy</h5>
-        </a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h5>Property Management</h5></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#!">Landlord</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#!">Landlord</a>
+            
+            <a class="dropdown-item" href="#!">Tennant</a>
+          </div>
+          <a class="dropdown-item" href="#!">Tennant</a>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">
-          <h5>Buyers Agent</h5>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./form.html">
-          <h5>Lease</h5>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#!">
-          <h5>Rent</h5>
-        </a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h5>Services</h5></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#!">Buyers Agent</a>
+          <a class="dropdown-item" href="#!">Full service</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#!">
@@ -87,29 +90,47 @@
 
       <div class="col-md-2 icon">
         <a href="./gallery.html">
-          <p class="card-text icon-text">Sell & Buy</p>
+          <p class="card-text icon-text">Property<br>Sales</p>
           <img class="card-img rounded-circle" src="assets/img/4.jpg" alt="Card image" />
         </a>
       </div>
       <div class="col-md-2 icon">
         <a href="">
-          <p class="card-text icon-text">Lease & Rent</p>
+          <p class="card-text icon-text">Property<br>Management</p>
           <img class="card-img rounded-circle" src="assets/img/5.jpg" alt="Card image" />
         </a>
       </div>
       <div class="col-md-2 icon">
         <a href="">
-          <p class="card-text icon-text">Network - Services</p>
+          <p class="card-text icon-text">Our<br>Services</p>
           <img class="card-img rounded-circle" src="assets/img/6.jpeg" alt="Card image" />
         </a>
       </div>
       <div class="col-md-2 icon">
         <a class="icon-link" href="">
-          <p class="card-text icon-text">Suburb Profiles</p>
+          <p class="card-text icon-text">Suburb<br>Profiles</p>
           <img class="card-img rounded-circle" href="" src="assets/img/7.jpg" alt="Card image" />
         </a>
       </div>
     </div>
+  </div>
+  <div class="row agency-profile">
+    <div class="col-md-10">
+    <div class="row profile-text-row">
+    <h3 class="profile-text profile-text-title">THE COASTLINE REALTY WA – POINT OF DIFFERENCE</h3>
+  </div>
+    <p class="profile-text">
+      We are a unique boutique real estate agency, particularly positioned to help our clients tap into our extensive service network that takes a unified approach to real estate.
+As a full-service agency, we are offering our professional assistance to current and future homeowners & investment property owners as well as to landlords & tenants.
+
+We are focusing on catering to our geographical area of expertise, the Perth North Coast area especially ranging from Joondalup up to Yanchep.
+<br> <br>COASTLINE REALTY WA provides its dedicated services as an “All IN ONE SERVICE” including all related aspects of property sales & property management.
+We treat all entrusted properties in our agency portfolio with the highest commitment, professionalism and most importantly, with highest attention to detail.
+<br> <br><p class="profile-text profile-text-end">WE BELIEF THAT EVERY HOME HAS ITS OWN SPECIAL APPEAL & COMFORT TO OFFER.
+OUR TASK IS TO MAKE IT VISIBLE & TO MATCH IT WITH THE RIGHT BUYER OR TENANT.</p>
+
+    </p>
+  </div>
   </div>
 
   <footer class="navbar navbar-light bg-light justify-content-center footer">
@@ -163,8 +184,10 @@
     </span>
   </footer>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>

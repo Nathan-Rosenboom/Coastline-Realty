@@ -18,6 +18,7 @@ a:hover{
 }
 a {
   color: #000;
+  font-family: Felix Titling;
 }
 
 .navigation {
@@ -59,6 +60,7 @@ a {
   border-bottom-color: white;
   width: 100vw;
   padding-left: 0px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .card {
   border-style: solid;
@@ -113,7 +115,7 @@ a {
 }
 .icon-text {
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
 }
 
@@ -137,7 +139,7 @@ a {
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
-  font-family: cortado;
+  font-family: ;
 }
 
 .lead {
@@ -147,16 +149,91 @@ a {
 }
 
 .form-header{
-  text-align: center;
+  text-align: left;
+  color:  rgb(138, 135, 135);
+  margin-top: 20px;
+}
+
+.form-sub-header{
+  text-align: left;
+  color:  rgb(138, 135, 135);
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 25px;
 }
 
 .form {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+}
+
+.form-title {
+  color:  rgb(138, 135, 135);
+  margin-top: 20px;
 }
 
 .btn-primary {
   background-color: #7394bf;
   border-color: #7394bf;
+}
+
+.submit-btn {
+  min-width: 200px;
+}
+
+.btn {
+  border-radius: 90px;
+}
+
+.submit-row{
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-toggle{
+  border-radius: 10px;
+  border-color: #ced4da;
+  border-right-color: #fff;
+}
+
+.agency-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.profile-text {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.profile-text-title {
+  font-weight: bolder;
+}
+
+.profile-text-row {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-text-end {
+  font-weight: bolder;
 }
