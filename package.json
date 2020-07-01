@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Nathan-Rosenboom/Coastline-Realty#readme",
   "dependencies": {
-    "bulma": "^0.8.2"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
   }
 }
