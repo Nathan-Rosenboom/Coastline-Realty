@@ -6,6 +6,22 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-color: #7394bf;
+}
+
+.bg-dark {
+  background-color: #ffffff!important;
+}
+
+.navbar-brand-img {
+  height: 10vh;
+
+}
+
+.nav-tab {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
 
@@ -27,6 +43,10 @@ body {
   text-transform: uppercase;
 }
 
+.carousel-text {
+  font-size: 40pt;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
@@ -38,6 +58,14 @@ body {
   min-width: 100%;
   height: 32rem;
 }
+
+.carousel-btn {
+  border-radius: 30px;
+  background-color: #7394bf;
+  border-color: #7394bf;
+}
+
+
 
 
 /* MARKETING CONTENT
@@ -56,7 +84,17 @@ body {
   margin-left: .75rem;
 }
 
+.img-text {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
 
+.bd-placeholder-img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+}
 /* Featurettes
 ------------------------- */
 
@@ -66,12 +104,33 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
+  font-weight: 10;
   line-height: 1;
   letter-spacing: -.05rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
+.about-col {
+  background-color: #ffffff;
+  width: 100vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0px 0px 3px 3px #ffffff;
+}
 
+.about-col p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.profile-text {
+  font-weight: bold;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -84,18 +143,30 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 0rem;
   }
 }
 
 @media (max-width: 440px) {
   .carousel-text {
     font-size: 1.5rem;
+  }
+  .bd-placeholder-carousel-img {
+    height: 50vh;
+  }
+  .carousel {
+    height: 50vh;
+  }
+  .carousel-inner {
+    height: 50vh;
+  }
+  .carousel-item {
+    height: 50vh;
   }
 }
