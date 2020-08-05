@@ -21,13 +21,6 @@ a {
   font-family: Felix Titling;
 }
 
-.navigation {
-  background-color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 0px;
-  width: 100vw;
-}
 
 .logo {
   max-width: 30%;
@@ -200,15 +193,6 @@ a {
   margin-top: 10px;
 }
 
-.dropdown-item {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.dropdown-toggle{
-  border-radius: 10px;
-  border-color: #ced4da;
-  border-right-color: #fff;
-}
 
 .agency-profile {
   display: flex;
@@ -258,9 +242,6 @@ a {
   margin-bottom: 0px;
 }
 
-.nav-tab {
-  font-size: 23px;
-}
 
 .socials {
   background-color: grey;
